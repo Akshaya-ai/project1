@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>welcome</title>
+    <link href="one.css" rel="stylesheet">
+    <link href="login.html">
+  </head>
+  <script>
+function myFunction() {
+	document.getElementById("mainFrameOne").style.display="none";
+	document.getElementById("mainFrameTwo").style.display="block";
+  document.getElementById("demo").innerHTML = "ResetPassWord";
+}
+
+</script>
+  
+<body><center>
+    <h2>LOGIN PAGE</h2>
+     <form class="" action="login.html" method="post"></center>
+     <h1>welcome!!!<h1>
+     <form><center>
+     <div id="mainFrameOne">
+      <label for="zero">Name:</label>
+      <input id="zero" type="name" name="" placeholder=""required> <br><br>
+      
+     <label for="one">Mail Id:</label>
+     <input id="one" type="email" name="" placeholder="name@gmail.com" placeholder=""required> <br><br>
+     <label for="two">password:</label>
+     <input id="two" type="password" name="" placeholder=""required>
+     <center><br>
+     <input id = "three" type="submit" name="" value="LOGIN">
+     </div>
+     <div id ="mainFrameTwo">
+     <a href="register.html"><button class="csk"onclick="myFunction()">REGISTER</button>
+     </a>
+     <p id="demo"></p>
+     </div>
+    </center></form>
+</body>
+</html>

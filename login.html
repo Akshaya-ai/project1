@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>project</title>
+    <link rel="stylesheet" href="two.css">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <p>ZEE PAINTS LIVING ROOM COLOR COMBINATION</p>
+      <table class='art'>
+        <tr>
+          <td id='one'> </td>
+          <td id='two'></td>
+          <td id='three'></td>
+          <td id='four'> </td>
+          <td id='five'> </td>
+        </tr>
+      </table>
+      
+        <div id="container">
+            <form>
+                <label for="colors">CHOOSE COLOR:</label>
+                <select id="colors" multiple>
+                  <i>
+                    <option value="1">pink</option>
+                    <option value="2">sandal</option>
+                    <option value="3">blue</option>
+                    <option value="4">yellew</option>
+                    <option value="4">grey</option>
+                    
+                  </i>
+                </select><br>
+                <button id="btn">ENTER</button>
+            </form>
+        </div>
+        <script>
+            const btn = document.querySelector('#btn');
+            const sb = document.querySelector('#colors');
+    
+            btn.onclick = (e) => {
+                e.preventDefault();
+                const selectedValues = [].filter
+                    .call(sb.options, option => option.selected)
+                    .map(option => option.text);
+                alert(selectedValues);
+            };
+        </script>
+    
+  </body>
+</html>

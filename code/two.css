@@ -1,0 +1,32 @@
+p{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 50px;
+    text-align: center;
+    background-color:yellow;
+  
+  }
+  td{
+    background-color: black;
+    height: 300px;
+    width: 400px;
+  }
+  #one{
+    background-color: #e63946;
+  }
+  #two{
+    background-color: #2a9d8f;
+  }
+  #three{
+  background-color: #f4a261;
+  }
+  #four{
+  background-color: #e9c46a;
+  }
+  #five{
+    background-color: #6d6875;
+  }
+  .art{
+    background-color:black;
+    margin: auto;
+  }
+  
